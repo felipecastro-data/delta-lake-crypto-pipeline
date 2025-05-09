@@ -35,6 +35,31 @@ Real-time crypto data is highly valuable for traders and analysts, but handling 
 
 ---
 
+## 🧪 Notebook Execution Screenshots
+
+### 📝 Notebook 1: Ingest Data
+
+**1. Initialize Spark Session**  
+![Ingest Spark Session](images/1_notebook1_ingest_session_start.png)
+
+**2. Define API Function in Notebook**  
+![Define API Function](images/2_notebook1_define_api_function.png)
+
+**3. Convert to Spark DataFrame**  
+![Convert to Spark](images/3_notebook1_convert_to_spark_df.png)
+
+---
+
+### 🧹 Notebook 2: Transform and Save
+
+**4. Save Cleaned Data to Delta Table**  
+![Save to Delta](images/4_notebook2_save_delta_table.png)
+
+**5. Verify Bitcoin Table in Lakehouse Explorer**  
+![Lakehouse Table](images/5_lakehouse_explorer_bitcoin_table.png)
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -44,7 +69,12 @@ delta-lake-crypto-pipeline/
 │ └── 02_Transform_Store_Delta.ipynb
 ├── src/
 │ └── api_utils.py
-├── data/ (optional for local test data)
+├── images/
+│ ├── 1_notebook1_ingest_session_start.png
+│ ├── 2_notebook1_define_api_function.png
+│ ├── 3_notebook1_convert_to_spark_df.png
+│ ├── 4_notebook2_save_delta_table.png
+│ └── 5_lakehouse_explorer_bitcoin_table.png
 ├── README.md
 ```
 
