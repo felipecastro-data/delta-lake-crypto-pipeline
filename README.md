@@ -50,6 +50,16 @@ delta-lake-crypto-pipeline/
 
 ---
 
+## 🚀 Key Features
+
+- End-to-end Delta Lake pipeline built with PySpark  
+- API ingestion with real-time crypto data (CoinGecko)  
+- Flattening and transforming nested JSON to tabular format  
+- Delta format storage on Microsoft Fabric Lakehouse  
+- Query-ready tables using Spark SQL  
+
+---
+
 ## 🏅 Author & Certifications
 
 **Felipe Castro**  
